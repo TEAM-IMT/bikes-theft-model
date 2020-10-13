@@ -15,7 +15,7 @@ git config --list
 Para *linkear* un repositorio basta con clonar el repositorio en la carpeta local deseada, apuntando a `directory` y ejecutando un `git clone`.
 
 ```
-git clone https://github.com/Johansmm/bikes-theft-model.git # Credenciales necesarias si el directorio es privado!
+git clone git remote set-url origin git@github.com:Johansmm/bikes-theft-model.git # Credenciales necesarias si el directorio es privado!
 cd bikes-theft-model
 ```
 
@@ -34,3 +34,5 @@ Para mayor informacion, consultar `Git-commands.pdf`, instrucciones tomadas del 
 ## Pasos avanzados:
 Para generar una llave por ssh para evadir la autentificacion, seguir los pasos de la pagina official de [GitHub](https://docs.github.com/es/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh)
 
+Nota: Si se presenta el siguente error en ssh "You've successfully authenticated, but GitHub does not provide shell access." usar el siguiente comando para modificar la URL a SSH!
+git remote set-url origin git@github.com:Johansmm/bikes-theft-model.git
