@@ -27,7 +27,7 @@ git status
 git add .
 git commit -am "Your comment or explanation of update"
 git push -u origin master
-git pull origin master
+git pull origin
 ```
 
 Para mayor informacion, consultar `Git-commands.pdf`, instrucciones tomadas del curso de coursera [Server-side Development with NodeJS, Express and MongoDB](https://www.coursera.org/learn/server-side-nodejs/supplement/z2xH0/setting-up-your-development-environment-git-additional-resources) y la web.
