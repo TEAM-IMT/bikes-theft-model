@@ -30,3 +30,7 @@ git pull
 ```
 
 Para mayor informacion, consultar `Git-commands.pdf`, instrucciones tomadas del curso de coursera [Server-side Development with NodeJS, Express and MongoDB](https://www.coursera.org/learn/server-side-nodejs/supplement/z2xH0/setting-up-your-development-environment-git-additional-resources) y la web.
+
+## Pasos avanzados:
+Para generar una llave por ssh para evadir la autentificacion, seguir los pasos de la pagina official de [GitHub](https://docs.github.com/es/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh)
+
