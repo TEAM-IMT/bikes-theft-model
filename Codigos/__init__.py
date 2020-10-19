@@ -1,1 +1,1 @@
-from DataStatistics import GraphsStatistics
+from .DataStatistics import GraphsStatistics
