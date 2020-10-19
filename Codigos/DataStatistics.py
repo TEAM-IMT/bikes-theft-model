@@ -8,7 +8,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from statsmodels.graphics.mosaicplot import mosaic
 
-class Graphs_Statistics():
+class GraphsStatistics():
     
     def readDB(self,filename):
         return pd.read_csv(filename, header = 0)
