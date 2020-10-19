@@ -8,74 +8,76 @@ import plotly.express as px
 import plotly.graph_objects as go
 from statsmodels.graphics.mosaicplot import mosaic
 
-def readDB(filename):
-    return pd.read_csv(filename, header = 0)
+class Graphs_Statistics():
+    
+    def readDB(self,filename):
+        return pd.read_csv(filename, header = 0)
 
-def Data_Shape(Data):
-    dataset_type=type(Data)
-    # the shape of data 
-    shape=Data.shape
-    #variables in data
-    col_names=Data.columns
-   
-    return dataset_type,shape,col_names
+    def Data_Shape(self,Data):
+        dataset_type=type(Data)
+        # the shape of data 
+        shape=Data.shape
+        #variables in data
+        col_names=Data.columns
+    
+        return dataset_type,shape,col_names
 
-def Data_Describe(Data):
-    num_des=Data.describe()
-    cate_des=Data.describe(include=['object'])
+    def Data_Describe(self,Data):
+        num_des=Data.describe()
+        cate_des=Data.describe(include=['object'])
 
-    return num_des,cate_des
+        return num_des,cate_des
 
-def CountBar_plot(Data,name, title):
-    #Bar plot cout of name
-    fig = px.pie(Data, names=name, title=title)
-    fig.show()
+    def CountBar_plot(self,Data,name, title):
+        #Bar plot cout of name
+        fig = px.pie(Data, names=name, title=title)
+        fig.show()
 
-def Pie_plot(Data,name, title):
-    #Cicle % of name
-    fig = px.pie(Data, name, title)
-    fig.show()
+    def Pie_plot(self,Data,name, title):
+        #Cicle % of name
+        fig = px.pie(Data, name, title)
+        fig.show()
 
-def Scatter_Plot(data,x_line,y_line): 
-    # Grahp x vs y
-    fig = px.scatter(data,x=x_line, y=y_line)
-    fig.show()
+    def Scatter_Plot(self,data,x_line,y_line): 
+        # Grahp x vs y
+        fig = px.scatter(data,x=x_line, y=y_line)
+        fig.show()
 
-def Scatter_Matrix(data,dim,color):
-    #Scater matrix of dim (list[]) by color
-    fig = px.scatter_matrix(data, dimensions=dim, color=color)
-    fig.show()
+    def Scatter_Matrix(self,data,dim,color):
+        #Scater matrix of dim (list[]) by color
+        fig = px.scatter_matrix(data, dimensions=dim, color=color)
+        fig.show()
 
 
-def Box_plot(data,x_line,y_line,orient):
-    #Box plot
-    fig = px.box(data,x=x_line, y=y_line,orientation=orient)
-    fig.show()
+    def Box_plot(self,data,x_line,y_line,orient):
+        #Box plot
+        fig = px.box(data,x=x_line, y=y_line,orientation=orient)
+        fig.show()
 
-def Bar_Stacket(data,X,Y):
-    # Bar stacket color =Y, count X
-    ax1=pd.crosstab(data.X,data.Y).plot.barh(stacked=True)
+    def Bar_Stacket(self,data,X,Y):
+        # Bar stacket color =Y, count X
+        ax1=pd.crosstab(data.X,data.Y).plot.barh(stacked=True)
 
-    return ax1
+        return ax1
 
-def Histogram_plot(data,x_line,color):
-    #Histogram of X_line per color
-    fig = px.histogram(data, x=x_line, color=color, barmode='group')
-    fig.show()
+    def Histogram_plot(self,data,x_line,color):
+        #Histogram of X_line per color
+        fig = px.histogram(data, x=x_line, color=color, barmode='group')
+        fig.show()
 
-def plot_corr(data):
-  corr = data.corr()
-  # Generate a mask for the upper triangle
-  mask = np.zeros_like(corr, dtype=np.bool)
-  mask[np.triu_indices_from(mask, k=1)] = True
+    def plot_corr(self,data):
+        corr = data.corr()
+        # Generate a mask for the upper triangle
+        mask = np.zeros_like(corr, dtype=np.bool)
+        mask[np.triu_indices_from(mask, k=1)] = True
 
-  # Generate a custom diverging colormap
-  cmap = sns.diverging_palette(220, 10, as_cmap=True)
-  sns.heatmap(corr, cmap=cmap, mask = mask)
+        # Generate a custom diverging colormap
+        cmap = sns.diverging_palette(220, 10, as_cmap=True)
+        sns.heatmap(corr, cmap=cmap, mask = mask)
 
-def Mosaic_square(data,x,y):
-    ax=mosaic(data,[x,y])
-    return ax 
+    def Mosaic_square(self,data,x,y):
+        ax=mosaic(data,[x,y])
+        return ax 
 
 
 
