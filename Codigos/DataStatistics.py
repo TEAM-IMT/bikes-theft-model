@@ -35,7 +35,7 @@ class GraphsStatistics():
 
     def Pie_plot(self,Data,name, title):
         #Cicle % of name
-        fig = px.pie(Data, name, title)
+        fig = px.pie(Data, names=name, title=title)
         fig.show()
 
     def Scatter_Plot(self,data,x_line,y_line): 
