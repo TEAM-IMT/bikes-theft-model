@@ -29,7 +29,7 @@ class GraphsStatistics :
 
     def CountBar_plot(self,Data,nombre, titulo):
         #Bar plot cout of name
-        fig = px.pie(Data, names=nombre, title=titulo)
+        fig = px.bar(Data, names=nombre, title=titulo)
         fig.show()
 
     def Scatter_Plot(self,data,x_line:list,y_line:list): 
