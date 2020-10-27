@@ -68,7 +68,7 @@ if __name__ == "__main__":
         level = "Regions", 
         vectors = ["v_CA16_1"], 
         regions = {"PR":["60","59","61","48","47","46","62","35","24","10","12","13","11"]},
-        geo_format = None,#"sf",
+        geo_format = "sp",
         save_file=True
     )
     try: print(census.info())
