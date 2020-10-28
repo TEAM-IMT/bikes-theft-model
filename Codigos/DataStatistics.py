@@ -8,7 +8,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from statsmodels.graphics.mosaicplot import mosaic
 
-class GraphsStatistics():
+class GraphsStatistics :
     
     def readDB(self,filename):
         return pd.read_csv(filename, header = 0)
@@ -19,7 +19,6 @@ class GraphsStatistics():
         shape=Data.shape
         #variables in data
         col_names=Data.columns
-    
         return dataset_type,shape,col_names
 
     def Data_Describe(self,Data):
@@ -28,17 +27,12 @@ class GraphsStatistics():
 
         return num_des,cate_des
 
-    def CountBar_plot(self,Data,name, title):
+    def CountBar_plot(self,Data,nombre, titulo):
         #Bar plot cout of name
-        fig = px.pie(Data, names=name, title=title)
+        fig = px.bar(Data, names=nombre, title=titulo)
         fig.show()
 
-    def Pie_plot(self,Data,name, title):
-        #Cicle % of name
-        fig = px.pie(Data, name, title)
-        fig.show()
-
-    def Scatter_Plot(self,data,x_line,y_line): 
+    def Scatter_Plot(self,data,x_line:list,y_line:list): 
         # Grahp x vs y
         fig = px.scatter(data,x=x_line, y=y_line)
         fig.show()
@@ -79,6 +73,11 @@ class GraphsStatistics():
         ax=mosaic(data,[x,y])
         return ax 
 
+    def Circulo(self,Data,name,titulo):
+        fig=px.pie(data_frame=Data,names=name,title=titulo)
+        fig.show()
+        
+    
 
 
 
