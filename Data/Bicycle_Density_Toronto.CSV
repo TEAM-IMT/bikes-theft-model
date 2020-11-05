@@ -1,0 +1,30 @@
+"Main Mode of Commuting (20), Commuting Duration (7), Time Leaving for Work (7), Sex (3) and Age (11B) for the Employed Labour Force Aged 15 Years and Over Having a Usual Place of Work or No Fixed Workplace Address, in Private Households of Canada, Provinces and Territories, Census Metropolitan Areas and Census Agglomerations, 2016 Census - 25% Sample Data"
+"Geography = Toronto"
+"Global non-response rate (GNR) =   4.2 %"
+"Time leaving for work (7) = Total - Time leaving for work"
+"Sex (3) = Total - Sex"
+"Age (11B) = Total - Age"
+"Main mode of commuting (20)","Total - Commuting duration","  Less than 15 minutes","  15 to 29 minutes","  30 to 44 minutes","  45 to 59 minutes","  60 minutes and over","Average commuting duration", 
+"Total - Main mode of commuting [1]",2747055,391405,783985,726575,372095,472995,34.0 
+"  Car, truck or van",1869155,286610,616250,525885,232195,208215,30.3 
+"    Car, truck, van as driver",1714795,248820,563115,491310,218425,193130,30.6 
+"      Driver, alone",1551725,229480,516420,443820,194800,167200,30.2 
+"      Driver, with 1 passenger",140370,16595,41040,41190,20375,21170,33.5 
+"      Driver, with 2 or more passengers",22700,2745,5655,6300,3245,4760,36.3 
+"    Car, truck, van as passenger",154365,37790,53135,34575,13775,15085,26.7 
+"      Passenger, 2 persons in vehicle",129170,34755,46460,27495,10265,10190,24.9 
+"      Passenger,3 or more persons in vehicle",25190,3035,6675,7080,3505,4890,35.9 
+"  Sustainable transportation",850710,92765,162215,196215,138165,261355,42.5 
+"    Public transit",667255,16865,87535,170835,133140,258890,49.5 
+"      Bus",287770,12630,46055,72890,51490,104700,47.7 
+"      Subway or elevated rail",272710,3130,31625,77165,62385,98405,49.0 
+"      Light rail, streetcar or commuter train",106265,1010,9715,20685,19190,55655,55.8 
+"      Passenger ferry",510,85,130,90,70,125,36.0 
+"    Active transport",183455,75900,74680,25380,5025,2465,17.1 
+"      Walked",144130,67870,55670,15990,3045,1555,15.6 
+"      Bicycle",39320,8030,19005,9395,1980,910,22.5 
+"  Motorcycle, scooter or moped",2885,655,1030,745,290,165,26.1 
+"  Other method",24300,11370,4490,3730,1445,3265,24.6 
+"Note"
+"[1] The census assumes that the commute to work originates from the usual place of residence, but this may not always be the case. Sometimes, respondents may be on a business trip and may have reported their place of work or main mode of commuting based on where they were working during the trip. Some persons maintain a residence close to work and commute to their home on weekends. Students often work after school at a location near their school. As a result, the data may show unusual commutes or unusual main modes of commuting."
+"Source: Statistics Canada - 2016 Census. Catalogue Number 98-400-X2016322."
