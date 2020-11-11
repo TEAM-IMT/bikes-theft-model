@@ -1,0 +1,8 @@
+pandas
+plotly
+seaborn
+branca
+folium
+geopandas
+pygeos
+rtree
