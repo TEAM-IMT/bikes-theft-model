@@ -26,17 +26,18 @@ class censusmap_api:
             regions = {"PR":["60","59","61","48","47","46","62","35","24","10","12","13","11"]})
 
             Notes:   
-                * geo_fomat can be None, "sf" or "sp" 
+                * geo_fomat can be None, "sf", "sp" or "NA"
                 * save_file is able to save the file as "data.csv" (when geo_format=None) or "geo.geojson" (else)
         '''
         census_request = locals() # Save parameters
         del census_request["self"], census_request["save_file"] # And remove insignificant for request
         census_request["api_key"] = self.__api_key # Add api key
         # URL choose and geo_format handdled
-        if geo_format is None or (geo_format != "sf" and geo_format != "sp"):
+        if geo_format is None or (geo_format != "sf" and geo_format != "sp" and geo_format != "NA"):
             del census_request["geo_format"] # Delete geo_format if not match
             url = self.data_url
-        else: url = self.geo_url
+        else:    
+            url = self.geo_url
         
         # Request
         response = requests.post(url = url, json = census_request)
@@ -65,11 +66,12 @@ class censusmap_api:
 if __name__ == "__main__":
     api = censusmap_api()
     census = api.get_census(dataset = "CA16",
-        level = "Regions", 
-        vectors = ["v_CA16_1"], 
+        level = "CT", 
+        vectors = ["v_CA16_5809", "v_CA16_5808", "v_CA16_5807", "v_CA16_406"], 
         regions = {"PR":["60","59","61","48","47","46","62","35","24","10","12","13","11"]},
-        geo_format = "sp",
-        save_file=True
+        geo_format = "sf",
+        save_file = True
     )
-    try: print(census.info())
-    except: print(census["features"][0]["properties"])
+    if census is not None:
+        try: print(census.info())
+        except: print(census["features"][0]["properties"])
