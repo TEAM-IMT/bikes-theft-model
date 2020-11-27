@@ -76,7 +76,9 @@ def main(args):
             info_dict = dict(dataset = args.dataset, vectors = args.vectors, regions = {"CT":"5050140.04"}, 
                 geo_format = args.geo_format, level = "CT")
         
-        if args.vectors is not None: info_dict["vectors"] = args.vectors # Update vectors list
+        if args.vectors is not None: 
+            info_dict["vectors"] = args.vectors # Update vectors list
+            print("[INFO] Input vectors:",args.vectors)
         if args.geo_format is not None: info_dict["geo_format"] = args.geo_format # Update geo_format
         info_dict["save_file"] = True
         
