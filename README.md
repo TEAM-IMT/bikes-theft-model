@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Johansmm/README-Template">
+  <a href="https://github.com/TEAM-IMT/bikes-theft-model">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -18,14 +18,14 @@
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
-    <a href="https://github.com/Johansmm/README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/TEAM-IMT/bikes-theft-model"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Johansmm/README-Template">View Demo</a>
+    <a href="https://github.com/TEAM-IMT/bikes-theft-model">View Demo</a>
     ·
-    <a href="https://github.com/Johansmm/README-Template/issues">Report Bug</a>
+    <a href="https://github.com/TEAM-IMT/bikes-theft-model/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Johansmm/README-Template/issues">Request Feature</a>
+    <a href="https://github.com/TEAM-IMT/bikes-theft-model/issues">Request Feature</a>
   </p>
 </p>
 
@@ -88,7 +88,7 @@ This section lists the main frameworks and libraries used in the project.
 To get a local copy just executed the following command:
 
 ```sh
-git clone https://github.com/Johansmm/README-Template
+git clone https://github.com/TEAM-IMT/bikes-theft-model
 ```
 
 ### Prerequisites
@@ -124,7 +124,7 @@ dynamic = szd(graph = G, INTIAL_DATE = ini_date)
 <!-- START readme-templates/contribution.md -->
 <!-- ROADMAP -->
 ## Roadmap
-See the [open issues](https://github.com/Johansmm/README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/TEAM-IMT/bikes-theft-model/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -138,12 +138,12 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- LICENSE -->
 ## License
-Distributed under the MIT License. See [`LICENSE`](https://github.com/Johansmm/README-Template/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/TEAM-IMT/bikes-theft-model/blob/main/LICENSE) for more information.
 
 <!-- CONTACT -->
 ## Contact
-**Johan Mejia:**  <a href="https://www.linkedin.com/in/Johansmm/"> <img src="https://image.flaticon.com/icons/png/512/174/174857.png" width="16" height="16"></a> <a href="mailto:johan-steven.mejia-mogollon@imt-atlantique.net"> <img src="https://image.flaticon.com/icons/png/512/732/732200.png" width="16" height="16"></a> <a href="https://github.com/Johansmm"> <img src="https://image.flaticon.com/icons/png/512/733/733553.png" width="16" height="16"></a><br/>
-**Project Link:**  [https://github.com/Johansmm/README-Template](https://github.com/Johansmm/README-Template)
+**Johan Mejia:**  <a href="https://www.linkedin.com/in/TEAM-IMT/"> <img src="https://image.flaticon.com/icons/png/512/174/174857.png" width="16" height="16"></a> <a href="mailto:johan-steven.mejia-mogollon@imt-atlantique.net"> <img src="https://image.flaticon.com/icons/png/512/732/732200.png" width="16" height="16"></a> <a href="https://github.com/TEAM-IMT"> <img src="https://image.flaticon.com/icons/png/512/733/733553.png" width="16" height="16"></a><br/>
+**Project Link:**  [https://github.com/TEAM-IMT/bikes-theft-model](https://github.com/TEAM-IMT/bikes-theft-model)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -155,17 +155,17 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/Johansmm/R
 <!-- START readme-templates/bottom.md -->
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Johansmm/README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/Johansmm/README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Johansmm/README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/Johansmm/README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/Johansmm/README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/Johansmm/README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Johansmm/README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/Johansmm/README-Template/issues
-[license-shield]: https://img.shields.io/github/license/Johansmm/README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/Johansmm/README-Template/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/TEAM-IMT/bikes-theft-model.svg?style=for-the-badge
+[contributors-url]: https://github.com/TEAM-IMT/bikes-theft-model/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/TEAM-IMT/bikes-theft-model.svg?style=for-the-badge
+[forks-url]: https://github.com/TEAM-IMT/bikes-theft-model/network/members
+[stars-shield]: https://img.shields.io/github/stars/TEAM-IMT/bikes-theft-model.svg?style=for-the-badge
+[stars-url]: https://github.com/TEAM-IMT/bikes-theft-model/stargazers
+[issues-shield]: https://img.shields.io/github/issues/TEAM-IMT/bikes-theft-model.svg?style=for-the-badge
+[issues-url]: https://github.com/TEAM-IMT/bikes-theft-model/issues
+[license-shield]: https://img.shields.io/github/license/TEAM-IMT/bikes-theft-model.svg?style=for-the-badge
+[license-url]: https://github.com/TEAM-IMT/bikes-theft-model/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/Johansmm/
+[linkedin-url]: https://www.linkedin.com/in/TEAM-IMT/
 
 <!-- END readme-templates/bottom.md -->
