@@ -1,27 +1,25 @@
-<!-- START readme-templates/header.md -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/TEAM-IMT/bikes-theft-model">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="Docs_Info/logo.png" alt="Logo">
   </a>
 
-  <h3 align="center"> README-Template title </h3>
+  <h3 align="center"><b> bikes-theft-model </h3></b>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Predictive Model of Bicycle Theft in the City of Toronto Toronto based on time series and demographic demographic data
     <br />
-    <a href="https://github.com/TEAM-IMT/bikes-theft-model"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/TEAM-IMT/bikes-theft-model/tree/main/Docs_Info"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/TEAM-IMT/bikes-theft-model">View Demo</a>
+    <a href="https://github.com/TEAM-IMT/bikes-theft-model/blob/main/Valor_data.ipynb">View Demo</a>
     ·
     <a href="https://github.com/TEAM-IMT/bikes-theft-model/issues">Report Bug</a>
     ·
@@ -56,32 +54,24 @@
   </ol>
 </details>
 
-<!-- END readme-templates/header.md -->
-
-<!-- START readme-templates/about.md -->
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href="https://example.com"> <img src="images/screenshot.png"></a>
+<a href="https://github.com/TEAM-IMT/bikes-theft-model"> <img src="Docs_Info/maps.png"></a>
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Today bicycles have become one of the most used transport around the world. According to estimates, there are already more than two billion bicycles in use worldwide. By 2050, this number could reach five billion. Among many reasons for the increase in their use is, the decrease in CO2 emissions, ease of acquisition and comfort in transport. However, there are some risks involved in using bicycles as principal transportation mode, including theft.  
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Currently, thanks to the databases of the different security entities on the planet, it is possible to identify points of concentration of thefts in different cities. However, few studies have been carried out to identify theft patterns, which would increase the safety and confidence of cyclists when riding on the roads. For this reason, the following questions are asked: Is there a relationship between bicycle theft and features such as time of day, place of theft and cost? Is it possible to find common patterns among different cities or are there city-specific behaviors? Additionally, once the main factors that influence theft have been identified, can the probability of theft be predicted, by: geographical location, daytime, and price of the bicycle? 
 
 ### Built With
 
-This section lists the main frameworks and libraries used in the project.
+The main libraries used in the project were:
 * [python](https://rasa.com/)
-* [networkx](https://networkx.org/)
 * [matplotlib](https://matplotlib.org/)
-* [opencv](https://opencv.org/)
+* [pandas](https://pandas.pydata.org/)
+* [geopandas](https://geopandas.org/)
+* [scikit-learn](https://scikit-learn.org/)
+* [pytorch](https://pytorch.org/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -98,30 +88,13 @@ Nothing to do
 1. Install all the libraries
 
 ```sh
-pip3 -m install -U -r requerements.txt
+pip3 -m install -U -r requirements.txt
 ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Run the main notebook [Codigos/Statistic_bike_theft.ipynb](https://github.com/TEAM-IMT/bikes-theft-model/blob/main/Codigos/Statistic_bike_theft.ipynb), step by step, with all the instructions deposited in it.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-Another example to use:
-```python
-from libraries.dynamics import spread_zombie_dynamics as szd
-from libraries.dynamics import graph_by_default
-import datetime as dt
-import tqdm
-
-G = graph_by_default(nodes = 20)
-ini_date = dt.datetime(year = 2019, month = 8, day = 18)
-dynamic = szd(graph = G, INTIAL_DATE = ini_date)
-```
-
-<!-- END readme-templates/about.md -->
-
-<!-- START readme-templates/contribution.md -->
 <!-- ROADMAP -->
 ## Roadmap
 See the [open issues](https://github.com/TEAM-IMT/bikes-theft-model/issues) for a list of proposed features (and known issues).
@@ -142,7 +115,9 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/TEAM-IMT/b
 
 <!-- CONTACT -->
 ## Contact
-**Johan Mejia:**  <a href="https://www.linkedin.com/in/TEAM-IMT/"> <img src="https://image.flaticon.com/icons/png/512/174/174857.png" width="16" height="16"></a> <a href="mailto:johan-steven.mejia-mogollon@imt-atlantique.net"> <img src="https://image.flaticon.com/icons/png/512/732/732200.png" width="16" height="16"></a> <a href="https://github.com/TEAM-IMT"> <img src="https://image.flaticon.com/icons/png/512/733/733553.png" width="16" height="16"></a><br/>
+* **Tatiana Moreno** (jenny-tatiana.moreno-perea@imt-atlantique.net) - [![Linkend][linkedin-shield]][linkedin-url-2]
+* **Johan Mejia** (johan-steven.mejia-mogollon@imt-atlantique.net) - [![Linkend][linkedin-shield]][linkedin-url-1]
+* **Diego Carreño** (diego-andres.carreno-avila@imt-atlantique.net) - [![Linkend][linkedin-shield]][linkedin-url-3]  
 **Project Link:**  [https://github.com/TEAM-IMT/bikes-theft-model](https://github.com/TEAM-IMT/bikes-theft-model)
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -150,9 +125,6 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/TEAM-IMT/b
 * [Best README Template](https://github.com/othneildrew/Best-README-Template)
 * [Action dynamic readme](https://github.com/varunsridharan/action-dynamic-readme/)
 
-<!-- END readme-templates/contribution.md -->
-
-<!-- START readme-templates/bottom.md -->
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/TEAM-IMT/bikes-theft-model.svg?style=for-the-badge
@@ -167,5 +139,6 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/TEAM-IMT/b
 [license-url]: https://github.com/TEAM-IMT/bikes-theft-model/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/TEAM-IMT/
-
-<!-- END readme-templates/bottom.md -->
+[linkedin-url-1]: https://www.linkedin.com/in/johansmm/
+[linkedin-url-2]: https://www.linkedin.com/in/tatiana-moreno-perea/
+[linkedin-url-3]: https://www.linkedin.com/in/diego-andres-carre%C3%B1o-49b2ab157/
